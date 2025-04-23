@@ -1,0 +1,16 @@
+{
+  "name": "hackmd-desktop",
+  "description": "A desktop application for HackMD.io built with Tauri",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Development mode not needed for WebView app';",
+    "build": "echo 'No build step required for WebView app';",
+    "tauri": "tauri",
+    "start": "tauri dev",
+    "build-app": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.5.0"
+  }
+}
