@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "identifier": "io.hackmd.desktop",
   "build": {
-    "frontendDist": ".",
+    "frontendDist": "../web",
     "devUrl": "https://hackmd.io",
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build"
